@@ -1,9 +1,11 @@
 import { ArrowDown, ArrowRight, ArrowUpRight, Brain, HeartHandshake, Leaf, Menu, MoveUpRight, Sparkles } from "lucide-react";
 
-const portrait = "/images/maya-reynolds.png";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const assetPath = (path: string) => `${basePath}${path}`;
+const portrait = assetPath("/images/maya-reynolds.png");
 const officeImages = [
-  "/images/therapy-office-1.jpeg",
-  "/images/therapy-office-2.jpeg",
+  assetPath("/images/therapy-office-1.jpeg"),
+  assetPath("/images/therapy-office-2.jpeg"),
 ];
 
 const services = [

@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/tharapist-site",
-  assetPrefix: "/tharapist-site/",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH ?? "",
+  outputFileTracingRoot: process.cwd(),
   images: {
     unoptimized: true,
   },
