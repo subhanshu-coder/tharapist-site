@@ -1,12 +1,12 @@
 import { ArrowDown, ArrowRight, ArrowUpRight, Brain, HeartHandshake, Leaf, Menu, MoveUpRight, Sparkles } from "lucide-react";
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const assetPath = (path: string) => `${basePath}${path}`;
-const portrait = assetPath("/images/maya-reynolds.png");
-const officeImages = [
-  assetPath("/images/therapy-office-1.jpeg"),
-  assetPath("/images/therapy-office-2.jpeg"),
-];
+// const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+// const assetPath = (path: string) => `${basePath}${path}`;
+// const portrait = assetPath("/images/maya-reynolds.png");
+// const officeImages = [
+//   assetPath("/images/therapy-office-1.jpeg"),
+//   assetPath("/images/therapy-office-2.jpeg"),
+// ];
 
 const services = [
   { number: "01", icon: Brain, title: "Anxiety & panic", text: "When worry, panic, or overthinking take up too much room, therapy can help you understand the patterns and build practical ways to feel steadier." },
