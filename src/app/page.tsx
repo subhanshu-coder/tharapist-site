@@ -26,13 +26,13 @@ function Button({ children, href = "#contact", light = false }: { children: Reac
 }
 
 export default function Home() {
-  return <main>
-    <div className="announcement"><span className="announce-dot" /> In-person therapy in Santa Monica · Online throughout California</div>
-    <header className="site-header">
-      <a className="brand" href="#top" aria-label="Dr. Maya Reynolds home"><span className="brand-mark">m<span>.</span></span><span className="brand-name">Maya Reynolds, PsyD<small>Psychology & psychotherapy</small></span></a>
-      <nav className="desktop-nav" aria-label="Main navigation"><a href="#about">About</a><a href="#services">How I can help</a><a href="#approach">My approach</a><a href="#office">The office</a><a href="#faqs">FAQs</a></nav>
-      <Button>Let’s connect</Button><details className="mobile-menu"><summary aria-label="Open navigation"><Menu /></summary><nav className="mobile-menu-panel" aria-label="Mobile navigation"><a href="#about">About</a><a href="#services">How I can help</a><a href="#approach">My approach</a><a href="#office">The office</a><a href="#faqs">FAQs</a><a href="#contact">Let’s connect</a></nav></details>
-    </header>
+  // return <main>
+  //   <div className="announcement"><span className="announce-dot" /> In-person therapy in Santa Monica · Online throughout California</div>
+  //   <header className="site-header">
+  //     <a className="brand" href="#top" aria-label="Dr. Maya Reynolds home"><span className="brand-mark">m<span>.</span></span><span className="brand-name">Maya Reynolds, PsyD<small>Psychology & psychotherapy</small></span></a>
+  //     <nav className="desktop-nav" aria-label="Main navigation"><a href="#about">About</a><a href="#services">How I can help</a><a href="#approach">My approach</a><a href="#office">The office</a><a href="#faqs">FAQs</a></nav>
+  //     <Button>Let’s connect</Button><details className="mobile-menu"><summary aria-label="Open navigation"><Menu /></summary><nav className="mobile-menu-panel" aria-label="Mobile navigation"><a href="#about">About</a><a href="#services">How I can help</a><a href="#approach">My approach</a><a href="#office">The office</a><a href="#faqs">FAQs</a><a href="#contact">Let’s connect</a></nav></details>
+  //   </header>
 
     <section className="hero" id="top">
       <div className="hero-copy">
