@@ -34,12 +34,12 @@ export default function Home() {
       <Button>Let’s connect</Button><details className="mobile-menu"><summary aria-label="Open navigation"><Menu /></summary><nav className="mobile-menu-panel" aria-label="Mobile navigation"><a href="#about">About</a><a href="#services">How I can help</a><a href="#approach">My approach</a><a href="#office">The office</a><a href="#faqs">FAQs</a><a href="#contact">Let’s connect</a></nav></details>
     </header>
 
-    <section className="hero" id="top">
+    {/* <section className="hero" id="top">
       <div className="hero-copy">
         <p className="eyebrow"><span className="eyebrow-line" /> A thoughtful place to begin again</p>
         <h1>Anxiety &amp; trauma therapy in <em>Santa Monica, CA</em></h1>
         <p className="hero-intro">You can be holding it all together and still feel overwhelmed inside. Therapy can help you make sense of what’s heavy, feel more grounded, and find a way forward that feels like yours.</p>
-        <div className="hero-actions"><Button>Get in touch</Button><a className="text-link" href="#about">Get to know me <ArrowDown size={15} /></a></div>
+        <div className="hero-actions"><Button>Get in touch</Button><a className="text-link" href="#about">Get to know me <ArrowDown size={15} /></a></div> */}
         <div className="hero-note"><span className="note-icon"><Sparkles size={17} /></span><span>Warm, collaborative care for adults<br />In person in Santa Monica or online in California</span></div>
       </div>
       <div className="hero-art">
